@@ -1,0 +1,37 @@
+extends base
+append head
+  link(rel='stylesheet', href='css/signUp.css')
+block content
+    .body-container
+        .signup-card
+            h1.Main-heading Create an Account
+            .forms
+                input.common-form.name(placeholder='Full Name').signupname
+                //- br
+                br
+                input.common-form.email(type='email', placeholder='Your Email').signupmail
+                //- br
+                br
+                input.common-form.pass(type='password', placeholder='Password').signuppass
+                //- br
+                br
+                input.common-form.pass(type='password', placeholder='Confirm Password').signupconfirmpass
+                //- br
+                br
+                input.common-form.mobile(placeholder='Mobile No.').signupmobile
+                br
+                //- br
+                input.common-form.address(placeholder='Your Address').signupaddress
+                br
+                br
+            .tandc
+                input(type='checkbox', style='margin-right: 1rem;')
+                .tandc-container
+                    h5(style='margin-right: 5px; margin-top: -4px;') I agree to all 
+                    h5.tos Terms of service
+            .sign-up-box
+                h4 Sign Up
+            .accalready
+                h5(style='margin-right: 5px;') Already have an account?
+                a(href="/login").hh(style='color: red;') Log in
+//- block footer

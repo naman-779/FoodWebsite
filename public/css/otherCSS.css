@@ -1,0 +1,237 @@
+*{
+    margin:0;
+    padding: 0;
+
+    box-sizing: border-box;
+    font-family: 'Baloo Da 2', cursive;
+}
+
+.sticky {
+    position: fixed; 
+    height: 5rem;
+    width: 100%;
+    background-color: white;
+    padding-bottom: 1rem;
+    /* layers=> z inc nearer to user  */
+    z-index: 1;
+}
+
+.sticky .nav-links {
+    color: grey;
+}
+
+
+.navbar{
+    background-color: rgb(0, 0, 0);
+    padding-top: 20px;
+    padding-right: 45px;
+    /* padding-bottom: 20px; */
+    color: white;
+}
+.all-navbar-buttons{
+    display: flex;
+    justify-content: flex-end;
+    word-spacing: 5rem;
+}
+.navbar-stuff{
+    font-weight: 700;
+    font-family: 'Baloo Da 2', cursive;
+    font-size: 1.5rem;
+    word-spacing: 5rem;
+    padding-right: 20px;
+    list-style-type: none;
+}
+.nav-links{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.nav-links:hover{
+    text-decoration: overline red;
+}
+
+
+/* plans */
+
+.plan-cards{
+    border-radius: 20%;
+}
+.plans-section{
+    margin-bottom: 2rem;
+}
+.price{
+    text-align: center;
+    
+}
+.price::after{
+    content: "";
+    display: block;
+    height: 0.1rem;
+    background-color: red;
+    width:15vw;
+    margin-top: 1.1rem;
+    margin-left: 80px;
+}
+.benefit{
+    display: flex;
+    margin-top: 15px;
+}
+.benefit i{
+    margin-left: 15px;
+    margin-right: 10px;
+}
+.Buy-button{
+    font-size: 2rem;
+    background-color: red;
+    height: 8vh;
+    width: 9vw;
+    display: block;
+    text-align: center;
+    border-radius: 258px;
+    /* z-index: 1; */
+    margin-bottom: 5 rem;;
+    position: absolute;
+    left: 6.5rem;
+    top: 2rem;
+    transition-duration: 0.2s;
+}
+.Buy-button:hover{
+    transform: scale(1.10);
+}
+
+.sub-headings{
+    padding-top: 2.5rem;
+    text-align: center;
+    font-size: 3rem;
+}
+.sub-headings::after{
+    content: "";
+    display: block;
+    height: 0.2rem;
+    background-color: red;
+    width:15vw;
+    margin-top: 1.1rem;
+    margin-left: 535px;
+}
+
+.common-cards{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-left: 3rem;
+}
+.card{
+    width: 500rem;
+    line-height: 1.7rem;
+    margin-right: 2rem;
+    border-width: 1px;
+    padding: 1rem;
+    box-shadow:0 1rem 3rem rgba(22, 4, 4, 0.175)!important;
+    /* display: inline-block; */
+    transition-duration:0.3s;
+}
+.card:hover{
+    transform: scale(1.07);
+}
+.card-heading{
+    font-size: 120%;
+    text-align: center;
+}
+i{
+    color: rgb(247, 51, 51);
+    margin-left: 10rem;
+    font-size: 150%;
+}
+
+
+/* footer */
+.footer{
+    height: 50vh;   
+    background-color: rgba(0, 0, 0, 0.993);
+    display: flex;
+}
+
+.Company{
+    margin-left: 12rem;
+    padding-top: 2.3rem;
+}
+
+.stuffs{
+    margin-bottom: 0.5rem;
+    color: white;
+    margin-right: 20px;
+    font-size: 1rem;
+}
+.stuffs:hover{
+    cursor: pointer;
+}
+
+.legal-stuff{
+    display: flex;
+    margin-top: 15rem;
+    position: absolute;
+    margin-left: 12rem;
+}
+.legal-stuffs{
+    color:gainsboro;
+    margin-right: 100px;
+}
+.legal-stuffs:hover{
+    cursor: pointer;
+}
+
+.social-media{
+    margin-top: 4rem;   
+    margin-left: 15rem;
+    color: red;
+}
+.social-media i{
+    margin: 3rem;
+}
+i:hover{
+    cursor: pointer;
+}
+.Buy-button{
+    position: relative;
+    margin-top: 1rem;
+}
+.Buy-button:hover{
+    cursor: pointer;
+}
+
+.user-icon{
+    margin-left: 5px;
+    /* padding-left: 0; */
+}
+
+.dropdown-menu{
+    /* display:none; */
+    position: absolute;
+    right: 23px;
+    text-align: center;
+    /* margin-right: 20px; */
+    background-color: rgb(90, 91, 92);
+    opacity: 0;
+    pointer-events: none;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    z-index: 2;
+    
+}
+.user-icon:hover + .dropdown-menu{
+    opacity: 1;
+    pointer-events: all;
+}
+.dropdown-menu:hover{
+    opacity: 1;
+    pointer-events: all;
+}
+
+.nav-links{
+    word-spacing: normal;
+}
+.dropdown-stuff{
+    font-size: 17px;
+    color: white;
+}

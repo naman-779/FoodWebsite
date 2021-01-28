@@ -1,0 +1,25 @@
+extends base
+append head
+  link(rel='stylesheet', href='css/profile.css')
+block content
+    .body-container
+        .signup-card
+            h1.Main-heading Profile
+            .content-container
+                .pic-container
+                    img(src="images/User_font_awesome.svg.png" height="250vh").user-image
+                .control-container
+                    h3.info-container Name : #{user.name}
+                    h3.info-container Email : #{user.email}
+                    h3.info-container Phone : #{user.contactNo}
+                    h3.info-container Address : #{user.address}
+                .btns-container
+                    h3#buttons-in-box Settings
+                    h3#buttons-in-box Reset Password
+                    h3#buttons-in-box Update Info
+                    if(user.role==="admin")
+                    h3#buttons-in-box Manage Plans
+
+
+
+                    

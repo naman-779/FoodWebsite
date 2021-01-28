@@ -1,0 +1,92 @@
+
+/* body{
+    display: flex;
+    color: white;
+    margin: 0;
+} */
+.Heading{
+    font-size: 2.5rem;
+    color: white;
+}
+
+.signup-options{
+    display: flex;
+    margin-top: -1rem;
+}
+.SignUp{
+    color: red;
+}
+.SignUp:hover{
+    cursor: pointer;
+}
+.login{
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+}
+.login-container{
+    margin-top: 8rem;
+    margin-left: 10rem;
+}
+.emailPass-input{
+    width: 71%;
+    background-color: rgb(39, 39, 39);
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border-radius: 10px;
+    border-style: solid;
+    color: whitesmoke;
+    border-color: rgb(39, 39, 39);
+}
+.body-container{
+    display: flex;
+}
+.input-options{
+    margin-top: 1.6rem;
+    display: flex;
+}
+::placeholder { 
+    color: rgb(190, 188, 188);
+    opacity: 1;
+}
+/* .Enter-email{
+    color: white;
+} */
+
+.forgot-pass{
+    margin-top: 0.2rem; margin-left: 6rem;
+}
+.forgot-pass:hover{
+    cursor: pointer;
+}
+.sign-in-box{
+    width: 71%;
+    height: 70%;
+    background-color: rgb(255, 0, 0);
+    margin: 0;
+    padding: 1rem;
+    border-radius: 10px;
+    border-style: solid;
+    color: whitesmoke;
+    border-color: rgb(39, 39, 39);
+    text-align: center;
+    
+}
+.sign-in-box:hover{
+    cursor: pointer;
+}
+
+
+.picture{
+    background-image:url(../images/sad-cartoon-vector-chef_G1e7q1OO_SB_PM.jpg);
+    height: 100vh;
+    width: 40vw;
+    background-size: 22rem;
+    background-repeat: no-repeat;
+}
+
+input:focus{
+    outline: none;
+}
+

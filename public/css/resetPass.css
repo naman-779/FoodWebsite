@@ -1,0 +1,86 @@
+*{
+    font-family: 'Noto Sans', sans-serif;
+}
+body{
+    display: flex;
+    color: white;
+    margin: 0;
+}
+.Heading{
+    font-size: 2.5rem;
+    margin-bottom: 50rem;
+}
+
+.signup-options{
+    display: flex;
+    margin-top: -1rem;
+    /* justify-content: center; */
+}
+.SignUp{
+    color: red;
+}
+.SignUp:hover{
+    cursor: pointer;
+}
+.login{
+    background-color: black;
+    height: 100vh;
+    width: 60vw;
+}
+.login-container{
+    margin-top: 8rem;
+    margin-left: 10rem;
+}
+.emailPass-input{
+    width: 71%;
+    background-color: rgb(39, 39, 39);
+    padding: 1rem;
+    border-radius: 10px;
+    border-style: solid;
+    color: whitesmoke;
+    border-color: rgb(39, 39, 39);
+}
+.input-options{
+    margin-top: 1.6rem;
+    display: flex;
+    /* margin-top: 0; */
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(190, 188, 188);
+    opacity: 1; /* Firefox */
+  }
+
+.forgot-pass{
+    margin-top: 0.2rem; margin-left: 6rem;
+}
+.forgot-pass:hover{
+    cursor: pointer;
+}
+.sign-in-box{
+    width: 76%;
+    height: 70%;
+    background-color: rgb(255, 0, 0);
+    margin: 0;
+    border-radius: 10px;
+    border-style: solid;
+    color: whitesmoke;
+    border-color: rgb(39, 39, 39);
+    text-align: center;
+    
+}
+.sign-in-box:hover{
+    cursor: pointer;
+}
+
+
+.picture{
+    background-image:url(happy-chef-cartoon-vector_MknUtJu__SB_PM.jpg);
+    height: 100vh;
+    width: 40vw;
+    background-size: cover;
+    /* background-attachment: fixed; */
+}
+
+input:focus{
+    outline: none;
+}

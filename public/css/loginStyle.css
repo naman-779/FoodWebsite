@@ -1,0 +1,91 @@
+.body-login{
+    /* display: flex; */
+    color: white;
+    margin: 0;
+}
+.Heading{
+    font-size: 2.5rem;
+    color: whitesmoke;
+    margin-top: 4rem;
+}
+
+.signup-options{
+    display: flex;
+    margin-top: -1rem;
+    margin-bottom: 1rem;
+}
+.SignUp{
+    color: red;
+}
+.SignUp:hover{
+    cursor: pointer;
+}
+.login{
+    background-color: black;
+    height: 100vh;
+    width: 61%;
+    margin-right: 0;
+    display: inline-block;
+    vertical-align: top;
+}
+.login-container{
+    /* margin-top: 8rem; */
+    margin-left: 10rem; 
+    margin-bottom: 0;
+}
+.emailPass-input{
+    width: 71%;
+    background-color: rgb(39, 39, 39);
+    padding: 1rem;
+    border-radius: 10px;
+    border-style: solid;
+    color: whitesmoke;
+    border-color: rgb(39, 39, 39);
+}
+.input-options{
+    margin-top: 1.6rem;
+    display: flex;
+    margin-bottom: 1.5rem;
+}
+::placeholder {
+    color: rgb(190, 188, 188);
+    opacity: 1; 
+  }
+
+.forgot-pass{
+    margin-top: -2px;
+    margin-left: 6rem;
+    color: whitesmoke;
+    font-size: small;
+}
+.forgot-pass:hover{
+    cursor: pointer;
+}
+#sign-in-box{
+    width: 71%;
+    height: 70%;
+    background-color: rgb(255, 0, 0);
+    margin: 0;
+    border-radius: 10px;
+    border-style: solid;
+    color: whitesmoke;
+    border-color: rgb(39, 39, 39);
+    text-align: center;
+    padding: 1rem;
+}
+#sign-in-box:hover{
+    cursor: pointer;
+}
+
+
+.picture{
+    background-image:url(../images/foodiesfeed.com_baker-with-wheat-flour.jpg);
+    height: 100vh;
+    width: 39%;
+    background-size: cover;
+    margin: 0;
+}
+
+input:focus{
+    outline: none;
+}

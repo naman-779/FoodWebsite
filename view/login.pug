@@ -1,0 +1,27 @@
+extends base
+append head
+  link(rel='stylesheet' href='css/loginStyle.css')
+block content
+  body.body-container
+    .login
+      .login-container
+        .headings
+          h1.Heading(style='margin-bottom: 0;' ) Welcome back.
+          .signup-options
+            h6(style='margin-right: 1rem; color: white; margin-top:10px') Don't have an account? 
+            a(href="/signup " style="margin-top:5px").SignUp Sign up
+        .forms
+          input.emailPass-input(type='email', placeholder='Your Email').emailtag
+          br
+          br
+          input.emailPass-input(type='password', placeholder='Password').passtag
+          br
+          .input-options
+            input#check-box(type='checkbox')
+            h6(style='margin-right: 8rem; margin-top:-2px; margin-left: 0.5rem; color:white') Keep me logged in
+            a(href="/forgotPassword").forgot-pass Forgot Password?
+        button#sign-in-box(type='button')
+          h4 Sign In
+    img(src="../images/foodiesfeed.com_baker-with-wheat-flour.jpg").picture
+
+

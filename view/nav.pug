@@ -1,0 +1,29 @@
+#nav.navbar
+    ul.all-navbar-buttons
+        li.navbar-stuff
+            a.nav-links(href='/') FEATURES
+        li.navbar-stuff
+            a.nav-links(href='') REVIEWS
+        li.navbar-stuff
+            a.nav-links(href='/plans') PLANS
+        li.navbar-stuff
+            a.nav-links(href='') DETAILS
+        if(name)
+            li.navbar-stuff
+                a(href='#').user-icon
+                    i.fas.fa-user.user-icon
+                .dropdown-menu
+                    ul
+                        li.navbar-stuff
+                            a.nav-links(href='/profile').dropdown-stuff #{name}
+                        li.navbar-stuff
+                            a.nav-links(href= '/myPlans').dropdown-stuff MY PLANS
+                        li.navbar-stuff
+                            a.nav-links(href='/logout').dropdown-stuff.logout LOGOUT
+                        
+
+        else
+            li.navbar-stuff
+                a.nav-links(href='/login') LOGIN
+            li.navbar-stuff
+                a.nav-links(href='/signup') SIGNUP

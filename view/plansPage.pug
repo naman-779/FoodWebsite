@@ -1,0 +1,9 @@
+//- -let plans=[            ];
+extends base
+block content 
+  .plans-section
+    h1.sub-headings
+        | PLANS
+    .common-cards
+      for plan in plans
+        include planCard

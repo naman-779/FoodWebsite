@@ -1,0 +1,18 @@
+extends base
+append head
+    link(rel='stylesheet' href='css/forgotPass.css')
+block content
+    .body-container
+        .login
+            .login-container
+                .headings
+                    h1.Heading(style='margin-bottom: 0;') Forgot Password?
+                    h2.Enter-email(style='margin-bottom: 0;') Enter your email
+                    .signup-options
+                        h6(style='margin-right: 1rem;') We will email you a link to reset your password
+                .forms
+                    input.emailPass-input(type='email', placeholder='Your Email').forgotPassEmail
+                    br
+                .sign-in-box.forgotPassSubmit
+                    h4 Send
+        .picture

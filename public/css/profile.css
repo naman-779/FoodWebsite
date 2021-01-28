@@ -1,0 +1,212 @@
+*{
+    font-family: 'Baloo Da 2', cursive;
+    padding: 0;
+    margin: 0;
+}
+.Main-heading::after{
+    content: "";
+    display: block;
+    height: 0.2rem;
+    background-color: red;
+    width:12vw;
+    margin-top: 0.7rem;
+    /* margin-left: 0; */
+    position: absolute;
+    left: 26rem;
+    /* margin-right: 20rem; */
+    /* margin-left: 535px; */
+}
+
+.body-container{
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url(../images/4259.jpg); */
+    background-size: cover;
+    background-size: 100vw;
+    min-height: 100vh;
+}
+.Main-heading{
+    margin-top: -4rem;
+    margin-bottom: 2rem;
+    margin-left: 13rem;
+}
+.signup-card{
+    background-color: white;
+    width: fit-content;
+    position: absolute;
+    margin-left: 12rem;
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+    /* padding: 20rem; */
+    padding-right: 5rem;
+    padding-left: 15rem;
+    padding-top: 6rem;
+    padding-bottom: 7rem;
+    border-radius: 2rem;
+    box-shadow:0 1rem 3rem rgba(22, 4, 4, 0.175)!important;
+}
+.btns-container{
+    margin-left: 3rem;        
+}
+
+#buttons-in-box{
+    background-color: red;
+    padding: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 6px;
+    color: whitesmoke;
+}
+
+.common-form{
+    width: 92%;
+    border-radius: 8px;
+    /* border-width: 0.4px; */
+    border-style: solid;
+    border-color: gray;
+    color: none;
+    /* border-color: gray; */
+    padding: 0.5rem;
+
+}
+.common-form:hover{
+    box-shadow:0 0.5rem 0.5rem rgba(22, 4, 4, 0.175)!important;
+}
+
+.tandc{
+    display: flex;
+}
+.tandc-container{
+    display: flex;
+}
+
+.sign-up-box{
+    width: 76%;
+    height: 70%;
+    background-color: rgb(255, 0, 0);
+    margin-left: 1rem;
+    margin-top: 1.5rem;
+    padding: 1rem;
+    border-style: solid;
+    color: whitesmoke;
+    border-color: rgb(39, 39, 39);
+    text-align: center;
+    border-style: none;
+    border-radius: 7px;
+    
+}
+.sign-up-box:hover{
+    cursor: pointer;
+}
+
+.tos{
+    color: red;
+    margin-top: -4px;
+}
+.tos:hover{
+    cursor: pointer;
+}
+
+.accalready{
+    display: flex;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+}
+
+.hh:hover{
+    cursor: pointer;
+}
+
+input{
+    transition-duration: 200ms;
+}
+
+input:focus{
+    outline: none;
+    border-color: black;
+}
+
+
+.user-image{
+    position: absolute;
+    left: 2.5rem;
+    bottom: 9rem;
+}
+
+
+
+
+
+
+
+/* footer */
+
+.footer{
+    height: 50vh;   
+    background-color: rgba(0, 0, 0, 0.993);
+    display: flex;
+    margin-top: 5rem;
+}
+
+.Company{
+    margin-left: 12rem;
+    padding-top: 2.3rem;
+}
+
+.stuffs{
+    margin-bottom: 0.5rem;
+    color: white;
+    margin-right: 20px;
+    font-size: 1rem;
+}
+.stuffs:hover{
+    cursor: pointer;
+}
+
+.legal-stuff{
+    display: flex;
+    margin-top: 15rem;
+    position: absolute;
+    margin-left: 12rem;
+}
+.legal-stuffs{
+    color:gainsboro;
+    margin-right: 100px;
+}
+.legal-stuffs:hover{
+    cursor: pointer;
+}
+
+.social-media{
+    margin-top: 4rem;   
+    margin-left: 15rem;
+    color: red;
+}
+.social-media i{
+    margin: 3rem;
+}
+i:hover{
+    cursor: pointer;
+}
+.content-container{
+    display: flex;
+}
+.control-container{
+    margin-left: 9rem;
+    margin-top: 2.5rem;
+}
+.btns-container{
+    margin-left: 9rem;
+    margin-right: 0;
+    margin-top: 2.5rem;
+}
+
+.info-container{
+    font-size: 20px;
+    margin-bottom: 20px;
+    
+}
+#buttons-in-box{
+    margin-bottom: 20px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow:0 1rem 1rem rgba(22, 4, 4, 0.175)!important;
+}

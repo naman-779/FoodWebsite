@@ -1,0 +1,25 @@
+extends base
+append head
+    link(rel='stylesheet' href='css/resetPass.css')
+block content
+    .login
+        .login-container
+            .headings
+                h1.Heading(style='margin-bottom: 0;') Reset Password
+                .signup-options
+                    // <h6 style="margin-right: 1rem;">Don't have an account? </h6>
+            .forms
+                input.emailPass-input(type='email' style='margin-top:3rem;' placeholder='New Password')
+                br
+                br
+                input.emailPass-input(type='password' placeholder='Re-enter Password' style='margin-bottom: 2rem;')
+                br
+                //
+                    <div class="input-options">
+                    <input type="checkbox" id="check-box">
+                    <h6 style="margin-right: 8rem; margin-top: 0.2rem; margin-left: 0.5rem;">Keep me logged in</h6>
+                    <h6 class="forgot-pass">Forgot Password?</h6>
+                    </div>
+            .sign-in-box
+                h4 Submit
+    .picture
